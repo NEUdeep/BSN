@@ -35,6 +35,7 @@ This repo holds the pytorch-version codes of paper: "BSN: Boundary Sensitive Net
 git clone https://github.com/NEUdeep/BSN.git
 ```
 
+
 ### Datasets
 
 We support experiments with publicly available dataset ActivityNet 1.3 for temporal action proposal generation now. To download this dataset, please use [official ActivityNet downloader](https://github.com/activitynet/ActivityNet/tree/master/Crawler) to download videos from the YouTube.
