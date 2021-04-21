@@ -58,7 +58,8 @@ you will find label in ./data
 
 All configurations of BSN are saved in opts.py, where you can modify training and model parameter.
 you will find it in ```doc/train.md```
-
+#### Evaluation_Result
+![evaluation_result](overview/evaluation_result.jpg)
 
 ### Visualization:
 
