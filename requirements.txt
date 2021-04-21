@@ -1,0 +1,7 @@
+ururllib
+torch>=1.4
+numpy
+torchvision
+tensorboardX
+pandas
+matplotlib
