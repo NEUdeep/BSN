@@ -32,7 +32,7 @@ This repo holds the pytorch-version codes of paper: "BSN: Boundary Sensitive Net
 
 2. Clone this repo with git, please use:
 ```
-git clone https://git.supremind.info/kanghaidong/bsn.git
+git clone https://github.com/NEUdeep/BSN.git
 ```
 
 ### Datasets
@@ -80,5 +80,5 @@ you will find it in ```doc/train.md```
 For any question, please file an issue or contact
 ```
 Tianwei Lin: wzmsltw@sjtu.edu.cn
-Kanghaidong: kanghaidong@supremind.com(update code)
+Kanghaidong: hdkustl@gmail.com(update code)
 ```
