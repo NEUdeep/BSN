@@ -8,7 +8,7 @@ This repo holds the pytorch-version codes of paper: "BSN: Boundary Sensitive Net
 
 ### Update
 * 2021.04.16: update for pytorch>=1.4 and python3.X, and fix some bug
-* 2018.12.12: Release Pytorch-version BSN
+* 2018.12.12: Release Pytorch-version BSN[origion-repo](https://github.com/wzmsltw/BSN-boundary-sensitive-network.pytorch)
 * 2018.09.26: Previously, we adopted classification results from result files of "Uts at activitynet 2016" for action detection experiments. Recently we found that the classification accuracy of these results are unexpected high. Thus we replace it with classification results of "cuhk & ethz & siat submission to activitynet challenge 2017" and updated all related experiments accordingly. You can find updated papers in my [homepage](wzmsltw.github.io) and in arXiv.
 * 2018.07.09: Codes and feature of BSN
 * 2018.07.02: Repository for BSN
@@ -42,9 +42,9 @@ We support experiments with publicly available dataset ActivityNet 1.3 for tempo
 
 To extract visual feature, we adopt TSN model pretrained on the training set of ActivityNet, which is the challenge solution of CUHK&ETH&SIAT team in ActivityNet challenge 2016. Please refer this repo [TSN-yjxiong](https://github.com/yjxiong/temporal-segment-networks) to extract frames and optical flow and refer this repo [anet2016-cuhk](https://github.com/yjxiong/anet2016-cuhk) to find pretrained TSN model.
 
-For convenience of training and testing, we rescale the feature length of all videos to same length 100, and we provide the rescaled feature at here [DIDI Yun](sm/personal/kanghaidong/video_project/activitynet_feature_cuhk). After download and unzip, please put `csv_mean_100` directory to `./data/activitynet_feature_cuhk` .
+For convenience of training and testing, we rescale the feature length of all videos to same length 100, and we provide the rescaled feature at here [Google](https://drive.google.com/file/d/1ISemndlSDS2FtqQOKL0t3Cjj9yk2yznF/view). After download and unzip, please put `csv_mean_100` directory to `./data/activitynet_feature_cuhk` .
 1. get activitynet_feature_cuhk
-[DIDI Yun](sm/personal/kanghaidong/video_project/activitynet_feature_cuhk)
+[Google](https://drive.google.com/file/d/1ISemndlSDS2FtqQOKL0t3Cjj9yk2yznF/view)
 and then:
 ```ln -s activitynet_feature_cuhk ./data/activitynet_feature_cuhk```
 
